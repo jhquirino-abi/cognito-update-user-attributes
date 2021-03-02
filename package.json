@@ -1,0 +1,25 @@
+{
+  "name": "cognito-update-user-attributes",
+  "version": "1.0.0",
+  "description": "Updates User Attributes on AWS Cognito User Pool",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhquirino-zx/cognito-update-user-attributes.git"
+  },
+  "author": "Jorge Quirino",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/jhquirino-zx/cognito-update-user-attributes/issues"
+  },
+  "homepage": "https://github.com/jhquirino-zx/cognito-update-user-attributes#readme",
+  "bin": {
+    "cognito-update-user-attributes": "./src/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.7.0",
+    "chalk": "^4.1.0",
+    "yargs": "^16.2.0"
+  }
+}
